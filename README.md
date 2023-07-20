@@ -2,13 +2,14 @@
 
 This repo contains initial code of assignment of backend Go developer.
 
-Please create a new branch and make PR when you finish it.
+Please clone the PR, send us a ZIP of code when you finish it.
 
-Please write a brief report in PR's description. The report must have the following contents.
+Please write a brief report. The report has the following contents:
 - Challenges: Challenges faced in development.
 - Points for improvement: Anything you did not have time to do well and you would like to improve. How you would improve it.
 - Self evaluation: How well you satisfied the requirements, designs and the key results. Score yourself 0-10.
 - Missing items: Any designs/requirements that were not sufficiently defined in the requirements/designs.
+- Time: How many hours you spend to finish this assignment.
 
 
 ## Implement POP3
