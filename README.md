@@ -2,7 +2,7 @@
 
 This repo contains initial code of assignment of backend Go developer.
 
-Please clone the PR, send us a ZIP of code when you finish it.
+Please clone the repo, send us a ZIP of code when you finish it.
 
 Please write a brief report. The report has the following contents:
 - Challenges: Challenges faced in development.
