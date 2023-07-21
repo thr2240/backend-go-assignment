@@ -2,6 +2,9 @@ package models
 
 import (
 	"github.com/thr2240/backend-go-assignment/go-pop3"
+	"github.com/emersion/go-message"
+	"github.com/jordan-wright/email"
+	"log"
 )
 type ConnectedEmail struct {
 	ID           int
