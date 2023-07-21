@@ -3,7 +3,6 @@ package models
 import (
 	"github.com/thr2240/backend-go-assignment/go-pop3"
 	"github.com/emersion/go-message"
-	"github.com/jordan-wright/email"
 	"log"
 )
 type ConnectedEmail struct {
@@ -19,7 +18,7 @@ type ConnectedEmail struct {
 func (c *ConnectedEmail) AuthPop3() error {
 	// Create a new POP3 client
 	client := pop3.New(pop3.Opt{
-		Host:          c.Pop3Host,
+		Host:          c.Pop3pHost,
 		Port:          c.Pop3Port,
 		DialTimeout:   3, // 3 seconds
 		TLSEnabled:    true,
@@ -45,7 +44,7 @@ func (c *ConnectedEmail) AuthPop3() error {
 func (c *ConnectedEmail) ReadEmailsPop3() ([]*message.Entity, error) {
 	// Create a new POP3 client
 	client := pop3.New(pop3.Opt{
-		Host:          c.Pop3Host,
+		Host:          c.Pop3pHost,
 		Port:          c.Pop3Port,
 		DialTimeout:   3, // 3 seconds
 		TLSEnabled:    true,
