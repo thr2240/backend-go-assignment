@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 
-	"github.com/Emailchaser.com/backend-go-assignment/models"
+	"github.com/thr2240.com/backend-go-assignment/models"
 )
 
 func GetAllLeads(c *gin.Context) {
