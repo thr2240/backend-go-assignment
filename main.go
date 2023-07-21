@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/thr2240.com/backend-go-assignment/initializers"
-	"github.com/thr2240.com/backend-go-assignment/controllers"
+	"github.com/thr2240/backend-go-assignment/initializers"
+	"github.com/thr2240/backend-go-assignment/controllers"
 )
 
 func init() {
